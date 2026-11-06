@@ -1,4 +1,5 @@
 import { CategoryNav } from "./cases/categories/components/category-nav"
+import { ProductList } from "./cases/products/components/product-list"
 import { Header } from "./components/layout/header"
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <CategoryNav />
+      <ProductList />
     </>
   )
 }
